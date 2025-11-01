@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="https://png.pngtree.com/png-clipart/20240909/original/pngtree-kissing-face-with-closed-eyes-emoji-realistic-3d-png-image_15980174.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 For Arshad 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Audio for background music -->
+    <audio id="bgMusic" loop>
+        <source src="https://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Sevish_-__nbsp_.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Falling Rose Petals Background -->
+    <div class="petals-container">
+        <div class="petal petal-1">🌹</div>
+        <div class="petal petal-2">🌹</div>
+        <div class="petal petal-3">🌹</div>
+        <div class="petal petal-4">🌹</div>
+        <div class="petal petal-5">🌹</div>
+        <div class="petal petal-6">🌹</div>
+        <div class="petal petal-7">🌹</div>
+        <div class="petal petal-8">🌹</div>
+        <div class="petal petal-9">🌹</div>
+        <div class="petal petal-10">🌹</div>
+    </div>
+
+    <!-- Glowing Hearts Background -->
+    <div class="glowing-hearts">
+        <div class="glow-heart">💖</div>
+        <div class="glow-heart">💕</div>
+        <div class="glow-heart">💗</div>
+        <div class="glow-heart">💝</div>
+        <div class="glow-heart">💜</div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Welcome Section -->
+        <section class="intro-section">
+            <div class="intro-content">
+                <div class="main-heart">💖</div>
+                <h1 class="intro-title">To My Dearest Arshad</h1>
+                <p class="intro-subtitle">This is for you, my love...</p>
+                <div class="scroll-hint">Scroll down 💕</div>
+            </div>
+        </section>
+
+        <!-- Romantic Message Section -->
+        <section class="message-section">
+            <div class="message-card">
+                <h2 class="message-title">My Heart Speaks</h2>
+                <div class="message-content">
+                    <p class="poem-line">In every sunrise, I see your smile,</p>
+                    <p class="poem-line">In every sunset, I feel your warmth,</p>
+                    <p class="poem-line">You are my today, tomorrow, and forever,</p>
+                    <p class="poem-line">My heart beats only for you, Arshad.</p>
+                    <br>
+                    <p class="poem-line">Every moment with you is a blessing,</p>
+                    <p class="poem-line">Every day is brighter because of you,</p>
+                    <p class="poem-line">You've filled my life with endless love,</p>
+                    <p class="poem-line">And I want to spend eternity with you.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proposal Section -->
+        <section class="proposal-section">
+            <div class="proposal-card">
+                <div class="floating-hearts-container">
+                    <div class="float-heart">💕</div>
+                    <div class="float-heart">💖</div>
+                    <div class="float-heart">💗</div>
+                </div>
+                <h2 class="proposal-question">A Question for You</h2>
+                <p class="proposal-text">My heart has something important to ask...</p>
+                <button class="proposal-button" id="proposalBtn">
+                    <span>Arshad, will you be mine forever?</span>
+                    <span class="button-heart">💍</span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Proposal Popup -->
+    <div class="popup-overlay" id="popup">
+        <div class="popup-card">
+            <div class="popup-heart">💖</div>
+            <h2 class="popup-title">I love you Arshad ❤️</h2>
+            <p class="popup-question">Will you spend your life with me?</p>
+            <div class="popup-buttons">
+                <button class="btn yes-btn" id="yesBtn">Yes! 💕</button>
+                <button class="btn no-btn" id="noBtn">No 😢</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    <div class="success-overlay" id="successOverlay">
+        <div class="success-container">
+            <h1 class="success-title">Yay! I love you ❤️</h1>
+            <p class="success-message">Forever and Always!</p>
+            <div class="celebration-hearts">
+                <span>💖</span>
+                <span>💕</span>
+                <span>💖</span>
+                <span>💕</span>
+                <span>💖</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- Music Toggle -->
+    <button class="music-toggle" id="musicToggle">
+        <span class="music-icon">🎵</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
